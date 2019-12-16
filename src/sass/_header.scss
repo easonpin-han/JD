@@ -1,0 +1,312 @@
+@charset "utf-8";
+#header {
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    .w {
+        position: relative;
+        z-index: 11;
+        height: 140px;
+    }
+}
+.o2_mini .w {
+    width: 990px;
+}
+#logo, .logo_tit {
+    position: absolute;
+}
+#logo {
+    z-index: 2;
+    left: 0;
+    top: 10px;
+    width: 190px;
+    height: 120px;
+    background-color: #fff;
+}
+.logo_tit {
+    width: 100%;
+    height: 100%;
+}
+.logo_tit_lk {
+    background-image: url(//misc.360buyimg.com/mtd/pc/index_2019/1.0.0/assets/sprite/header/sprite.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: block;
+    width: 190px;
+    height: 120px;
+    font-size: 0;
+}
+.logo_subtit {
+    display: none;
+}
+.logo_extend {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.logo_scene_hide {
+    display: none;
+}
+.logo_scene {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    text-align: center;
+}
+.logo_scene_img {
+    display: block;
+    width: 134px;
+    height: 120px;
+    background-color: #fff;
+    opacity: 0;
+    margin: 0 auto;
+    filter: alpha(opacity=0);
+    clear: both;
+    background-size: auto 100%;
+}
+.logo_scene_btn, .logo_scene_text {
+    position: absolute;
+    line-height: 20px;
+    left: 50%;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.logo_scene_text {
+    width: 120px;
+    font-size: 16px;
+    margin-left: -60px;
+    top: 36px;
+    font-weight: 700;
+    background: transparent;
+    color: #333;
+    text-align: center;
+    z-index: 1;
+}
+.logo_scene_btn {
+    width: 60px;
+    height: 20px;
+    bottom: 35px;
+    margin-left: -32px;
+    text-indent: 4px;
+    color: #555;
+    font-size: 12px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-color: #fff;
+    border-radius: 11px;
+}
+.search-m {
+    position: relative;
+    z-index: 1;
+    height: 60px;
+}
+.search-m .search_logo {
+    display: none;
+}
+.o2_mini .search-m .form {
+    width: 486px;
+    left: 220px;
+}
+
+.search-m .form {
+    position: absolute;
+    left: 260px;
+    top: 25px;
+    width: 546px;
+    height: 32px;
+    border: 2px solid #e2231a;
+    background: #fff;
+}
+.o2_mini .search-m .search_bg, .o2_mini .search-m .text {
+    width: 367px;
+}
+
+.search-m .search_bg, .search-m .text {
+    left: 0;
+    padding: 2px 44px 2px 17px;
+    width: 425px;
+    height: 26px;
+    border: 1px solid transparent;
+    line-height: 26px;
+    font-size: 12px;
+}
+.search-m .button, .search-m .search_bg, .search-m .text {
+    position: absolute;
+    top: 0;
+    outline: none;
+}
+.search-m .search_bg {
+    color: #989898;
+}
+.search-m .text {
+    color: #333;
+    background-color: #f4f4f4;
+}
+.search-m .button {
+    border-radius: 0;
+    right: 0;
+    width: 58px;
+    height: 32px;
+    line-height: 32px;
+    border: none;
+    background-color: #e1251b;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    -webkit-transition: background .2s ease;
+    transition: background .2s ease;
+}
+button, input {
+    font-family: Microsoft YaHei,Heiti SC,tahoma,arial,Hiragino Sans GB,"\5B8B\4F53",sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+.o2_mini #settleup {
+    right: 130px;
+}
+
+#settleup {
+    position: absolute;
+    right: 230px;
+    top: 25px;
+    z-index: 21;
+}
+#settleup .cw-icon {
+    width: 130px;
+    height: 34px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 34px;
+    border-color: #eee;
+}
+
+.cw-icon {
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    float: left;
+    border: 1px solid #e3e4e5;
+}
+#settleup .cw-icon .iconfont, #settleup .cw-icon a {
+    color: #e1251b;
+    -webkit-transition: color .2s ease;
+    transition: color .2s ease;
+}
+
+#settleup .cw-icon .iconfont {
+    margin-right: 13px;
+    font-size: 16px;
+}
+#settleup .cw-icon .iconfont, #settleup .cw-icon a {
+    color: #e1251b;
+    -webkit-transition: color .2s ease;
+    transition: color .2s ease;
+}
+#settleup .ci-count {
+    position: absolute;
+    top: 1px;
+    left: 29px;
+    right: auto;
+    display: inline-block;
+    padding: 1px 3px;
+    font-size: 12px;
+    line-height: 12px;
+    color: #fff;
+    background-color: #e1251b;
+    border-radius: 7px;
+    min-width: 12px;
+    text-align: center;
+}
+#settleup .dropdown-layer {
+    top: 36px;
+    right: 0;
+    width: 308px;
+    border-color: #c81623;
+}
+.o2_mini #hotwords {
+    left: 220px;
+    width: 450px;
+}
+
+#hotwords {
+    overflow: hidden;
+    position: absolute;
+    left: 260px;
+    top: 65px;
+    width: 550px;
+    height: 20px;
+    line-height: 20px;
+}
+#header .style-red {
+    color: #e1251b;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#hotwords a {
+    float: left;
+    margin-right: 10px;
+    white-space: nowrap;
+    color: #999;
+}
+#navitems {
+    overflow: hidden;
+    position: absolute;
+    left: 203px;
+    bottom: 0;
+    height: 40px;
+    padding-top: 20px;
+}
+#navitems .spacer {
+    overflow: hidden;
+    width: 0;
+    height: 13px;
+}
+#navitems .spacer, #navitems li, #navitems ul {
+    float: left;
+}
+#navitems li {
+    margin-left: 1px;
+}
+#navitems-group1 .fore1 a, #navitems-group1 .fore2 a {
+    font-weight: 700;
+    color: #e1251b;
+}
+
+#navitems a {
+    position: relative;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+    color: #333;
+    margin: 0 11px;
+    -webkit-transition: color .2s ease;
+    transition: color .2s ease;
+}
+.o2_mini #treasure {
+    display: none;
+}
+#treasure {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    width: 190px;
+    height: 120px;
+}
+.promo_lk {
+    position: relative;
+    display: block;
+    width: 190px;
+    height: 120px;
+    z-index: 3;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    -webkit-animation: promoShow .3s ease;
+    animation: promoShow .3s ease;
+}

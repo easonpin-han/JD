@@ -1,0 +1,182 @@
+@charset "utf-8";
+// 顶部灰色导航条
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+    .cw-icon {
+        padding-right: 20px!important;
+    }
+    .iconfont {
+        position: absolute;
+        right: 5px;
+        top: 10px;
+        width: 12px;
+        height: 12px;
+        line-height: 12px;
+    }
+}
+#shortcut {
+    border-bottom: 1px solid #ddd;
+    background-color: #e3e4e5;
+    .w {
+        height: 30px;
+        line-height: 30px;
+        color: #999;
+        margin: auto;
+        width: 1190px;
+    }
+    li{
+        float: left;
+    }
+    li.spacer {
+        overflow: hidden;
+        margin: 11px 5px 0;
+        width: 1px;
+        height: 10px;
+        background-color: #ccc;
+    }
+    .dt {
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+    .dd {
+        line-height: 24px;
+    }
+    a {
+        color: #999;
+        &:hover {
+            color: #e33333;
+        }
+    }
+    .style-red {
+        color: #f10215;
+    }
+    .dropdown-layer {
+        top: 30px;
+    }
+}
+.shortcut_num {
+    margin-left: 4px;
+}
+.cw-icon {
+    height: 28px;
+    line-height: 28px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    float: left;
+    border: 1px solid #e3e4e5;
+}
+// 企业采购
+#shortcut .shortcut_btn_company {
+    .dt a {
+        color: #f00;
+    }
+    .dropdown-layer {
+        left: 0;
+        width: 145px;
+        padding: 10px 0 10px 15px;
+    }
+    .item {
+        display: inline-block;
+        width: 56px;
+        white-space: nowrap;
+    }
+}
+.dorpdown, .shortcut_btn {
+    position: relative;
+    z-index: 21;
+}
+#ttbar-myjd{
+    .dropdown-layer {
+        left: 0;
+        width: 280px;
+    }
+    .myjdlist {
+        padding: 10px 0 10px 15px;
+        overflow: hidden;
+        .fore1,.fore2{
+            float: left;
+            width: 126px;
+        }
+    }
+    .myjdlist_2 {
+        border-top: 1px solid #f1f1f1;
+    }
+}
+.dropdown-layer {
+    display: none;
+    position: absolute;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 1px 2px 1px rgba(0,0,0,.1);
+}
+#ttbar-mycity .iconfont {
+    font-size: 14px;
+    color: #f10215;
+    margin-right: 4px;
+}
+#ttbar-login {
+    margin-right: 8px;
+    z-index: 20;
+}
+/* 客户服务 */
+#ttbar-serv{
+    .dd {
+        right: 0;
+        width: 175px;
+        padding: 10px 0;
+    }
+    .item-business,.item-client {
+        padding-left: 15px;
+        font-weight: 700;
+        color: #666;
+    }
+    .item {
+        display: inline-block;
+        width: 70px;
+        padding-left: 15px;
+    }
+    .item-business {
+        margin-top: 5px;
+        padding-top: 5px;
+        border-top: 1px dotted #eee;
+    }
+}
+// 网站导航
+#ttbar-navs {
+    .dd {
+        right: -84px;
+        width: 1188px;
+        padding: 15px 0;
+    }
+    dl{
+        float: left;
+        width: 255px;
+        padding-left: 20px;
+        border-left: 1px solid #eee;
+    }
+    dl.fore1 {
+        border-left: none;
+        width: 340px;
+    }
+    dt {
+        margin-bottom: 5px;
+        font-weight: 700;
+        color: #666;
+    }
+}
+// 下拉导航显示
+.clickHover .dropdown-layer, .shortcut_btn:hover .dropdown-layer {
+    display: block;
+}
+.dropdown:hover, .shortcut_btn:hover{
+    .cw-icon {
+        padding-bottom: 2px;
+        border-color: #ccc;
+        border-bottom: none;
+        background-color: #fff;
+    }
+}

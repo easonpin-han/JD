@@ -18,3 +18,29 @@ body {
 .index {
     background-color: #f4f4f4;
 }
+.slider_control:hover {
+    color: #fff;
+    background-color: #999;
+    background-color: rgba(0,0,0,.4);
+}
+.lazyimg {
+    position: relative;
+    overflow: hidden;
+    background: #eee;
+    -webkit-transition: background .2s linear;
+    transition: background .2s linear;
+}
+.lazyimg_loaded {
+    -webkit-transition: background .2s linear,opacity .2s linear!important;
+    transition: background .2s linear,opacity .2s linear!important;
+    background: transparent;
+    .lazyimg_img {
+        opacity: 1;
+    }
+}
+.lazyimg_img {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity .2s linear;
+}

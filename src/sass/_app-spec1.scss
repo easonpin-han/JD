@@ -1,0 +1,272 @@
+@charset "utf-8";
+// 特色优选一区
+.jd_container {
+    width: 990px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.jd_container.floor {
+    height: 340px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.grid_c1 {
+    margin: 0 auto;
+    width: 1190px;
+}
+.special_offer {
+    background-color: white;
+}
+.box {
+    float: left;
+    height: 340px;
+    margin: 0 10px 0 0;
+}
+.box_hd {
+    height: 60px;
+    padding: 0 20px;
+    font-size: 0;
+    line-height: 0;
+}
+.box_hd_lk {
+    display: inline-block;
+    position: relative;
+    height: 32px;
+    margin: 12px 0 0;
+}
+.box_tit {
+    float: left;
+    font-weight: 700;
+    font-size: 24px;
+    color: #333;
+    line-height: 32px;
+}
+.box_hd_arrow {
+    background-image: url(//misc.360buyimg.com/mtd/pc/index_2019/1.0.0/assets/sprite/tit_arrow/sprite.png);
+    background-position: -16px 0;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    float: left;
+    top: 9px;
+    left: 10px;
+}
+.box_hd_arrow:after {
+    background-image: url(//misc.360buyimg.com/mtd/pc/index_2019/1.0.0/assets/sprite/tit_arrow/sprite.png);
+    background-position: 0 0;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+    content: "";
+}
+#J_special_offer{
+    .special_inner {
+        padding: 0 15px 15px;
+    }
+    .special_tab {
+        position: relative;
+    }
+    .tab_head {
+        position: absolute;
+        bottom: 108%;
+        right: 0;
+    }
+}
+.special_offer {
+    .special_tab {
+        .tab_head_item {
+            position: relative;
+            display: inline-block;
+            margin: 0 13.5px;
+        }
+        .tab_head_item.active{
+            .special_tab_lk {
+                color: #e1251b;
+            }
+        }
+    }
+    .special_tab_lk {
+        display: inline-block;
+        cursor: pointer;
+        font-size: 14px;
+        font-family: Microsoft Yahei,PingFangSC-Medium,sans-serif,serif;
+        color: #999;
+        line-height: 19px;
+        padding-bottom: 2px;
+    }
+}
+
+.special_offer .special_tab .tab_head_item.active:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #e1251b;
+}
+//*****************************************************************
+.special_offer .special_list {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+#J_special_offer .special_list {
+    width: 560px;
+    height: 270px;
+}
+#J_special_offer .special_item {
+    display: inline-block;
+    vertical-align: top;
+    width: 170px;
+    height: 89px;
+}
+#J_special_offer .special_item_0 {
+    background-color: rgba(109,126,146,.05);
+    float: left;
+    width: 170px;
+    height: 265px;
+    margin-right: 6px;
+}
+#J_special_offer .special_item_img {
+    float: left;
+    width: 84px;
+    height: 84px;
+}
+#J_special_offer .special_item_0 .special_item_img {
+    margin-top: 46px;
+    width: 120px;
+    display: inline-block;
+    left: 50%;
+    margin-left: -60px;
+    height: 120px;
+    text-align: center;
+}
+#J_special_offer .special_item_lowestFirst {
+    display: inline-block;
+    width: 90px;
+    height: 24px;
+    position: absolute;
+    left: 0;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAAAYBAMAAACIFvdWAAAABGdBT…gPH/FnI8hGkI0gG0E2gmwEYYTCCIURCiMURiiMUBihMEJd/HcrFSr6YboAAAAASUVORK5CYII=);
+    background-size: cover;
+    background-position: 50%;
+    font-family: MicrosoftYaHei-Bold,Microsoft Yahei,PingFangSC-Medium,sans-serif,serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+    color: #fff;
+    letter-spacing: 0;
+    text-align: center;
+}
+#J_special_offer .special_item_message {
+    float: left;
+    width: 75px;
+    margin-left: 6px;
+    font-size: 0;
+}
+#J_special_offer .special_item_0 .special_item_message {
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+}
+#J_special_offer .special_item_name {
+    display: inline-block;
+    width: 100%;
+    color: #333;
+    height: 32px;
+    font-size: 12px;
+    line-height: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    font-family: Microsoft Yahei,PingFangSC-Medium,sans-serif,serif;
+}
+#J_special_offer .special_item_0 .special_item_name {
+    margin-top: 9px;
+    margin-bottom: 4px;
+    height: 19px;
+    line-height: 19px;
+    width: 150px;
+    font-size: 14px;
+    display: inline-block;
+    text-align: center;
+}
+#J_special_offer .special_item_0 .special_item_price {
+    margin-top: 4px;
+}
+#J_special_offer .special_item_soldMsg {
+    display: inline-block;
+    margin-top: 8px;
+    font-size: 12px;
+    line-height: 16px;
+    position: absolute;
+    color: #999;
+}
+#J_special_offer .special_item_0 .special_item_soldMsg {
+    position: static;
+    margin-top: 8px;
+}
+#J_special_offer .special_item_miaoShaPrice {
+    font-size: 14px;
+    line-height: 16px;
+    font-family: Arial-BoldMT,Microsoft Yahei,PingFangSC-Medium,sans-serif,serif;
+    color: #e1251b;
+    letter-spacing: 0;
+    margin-top: 5px;
+    display: inline-block;
+}
+#J_special_offer .special_item_0 .special_item_jdPrice, #J_special_offer .special_item_0 .special_item_miaoShaPrice {
+    display: inline;
+    margin: 0 2px;
+}
+#J_special_offer .special_item_0 .special_item_miaoShaPrice {
+    font-size: 18px;
+}
+#J_special_offer .special_item_jdPrice {
+    display: inline-block;
+    width: 100%;
+    text-decoration: line-through;
+    font-family: sans-serif,serif;
+    color: #999;
+    font-size: 12px;
+    line-height: 14px;
+    -webkit-transform: scale(.8);
+    -ms-transform: scale(.8);
+    transform: scale(.8);
+    margin-top: 2px;
+    -webkit-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+}
+#J_special_offer .special_item_0 .special_item_jdPrice, #J_special_offer .special_item_0 .special_item_miaoShaPrice {
+    display: inline;
+    margin: 0 2px;
+}
+.dollar_txt {
+    font-size: 12px;
+}
+#J_special_offer .special_item_soldNum {
+    display: inline-block;
+    line-height: 18px;
+    color: #e1251b;
+}
+#J_special_offer .special_item {
+    display: inline-block;
+    vertical-align: top;
+    width: 170px;
+    height: 89px;
+}
+#J_special_offer .special_item_1, #J_special_offer .special_item_2, #J_special_offer .special_item_3, #J_special_offer .special_item_4 {
+    margin-left: 19px;
+    margin-bottom: 48px;
+}
+#J_special_offer .special_item_1, #J_special_offer .special_item_2 {
+    margin-top: 18px;
+}

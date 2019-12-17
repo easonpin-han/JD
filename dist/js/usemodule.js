@@ -1,0 +1,1 @@
+"use strict";var _module_effect=require("./module_effect.js");new _module_effect.Tab;
